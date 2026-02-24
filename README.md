@@ -458,4 +458,4 @@ This leaves users with two options:
 # Development
 
 The scripts used to build this package for distribution can be found
-[here](https://github.com/[cortesi](https://github.com/cortesi/godist).
+[here](https://github.com/Unity-Billal-mesloub/godist).
