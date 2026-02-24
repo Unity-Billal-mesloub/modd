@@ -1,11 +1,11 @@
-[![Travis Build Status](https://travis-ci.org/cortesi/modd.svg?branch=master)](https://travis-ci.org/cortesi/modd)
+[![Travis Build Status](https://travis-ci.org/cortesi/modd.svg?branch=main)](https://travis-ci.org/cortesi/modd)
 
 
 Modd is a developer tool that triggers commands and manages daemons in response
 to filesystem changes.
 
 If you use modd, you should also look at
-[devd](https://github.com/cortesi/devd), a compact HTTP daemon for developers.
+[devd](https://github.com/Unity-Billal-mesloub/devd), a compact HTTP daemon for developers.
 Devd integrates with modd, allowing you to trigger in-browser livereload with
 modd.
 
@@ -24,12 +24,12 @@ Example                                      | Description
 
 Modd is a single binary with no external dependencies, released for OSX,
 Windows, Linux, FreeBSD, NetBSD and OpenBSD. Go to the [releases
-page](https://github.com/cortesi/modd/releases/latest), download the package for
+page](https://github.com/Unity-Billal-mesloub/modd/releases/latest), download the package for
 your OS, and copy the binary to somewhere on your PATH.
 
 Alternatively, with Go 1.17+ installed, you can install `modd` directly using `go install`. Please note that CGO is required, so if you happen to have it disabled you will need to prepend the `CGO_ENABLED=1` environment variable.
 
-    $ go install github.com/cortesi/modd/cmd/modd@latest
+    $ go install github.com/Unity-Billal-mesloub/modd/cmd/modd@latest
 
 # Quick start
 
@@ -105,7 +105,7 @@ SIGTERM to the daemon instead, which causes devd to exit and be restarted by
 modd.
 
 By default modd interprets commands using a [built-in POSIX-like
-shell](https://github.com/mvdan/sh). Some external shells are also supported,
+shell](https://github.com/Unity-Billal-mesloub/sh). Some external shells are also supported,
 and can be used by setting `@shell` variable in your "modd.conf" file.
 
 
@@ -458,4 +458,4 @@ This leaves users with two options:
 # Development
 
 The scripts used to build this package for distribution can be found
-[here](https://github.com/cortesi/godist).
+[here](https://github.com/[cortesi](https://github.com/cortesi/godist).
